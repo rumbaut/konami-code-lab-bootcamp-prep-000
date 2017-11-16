@@ -4,7 +4,7 @@ function init(e) {
   // Write your JavaScript code inside the init() function
     var keyCode = e.keyCode;
     e.stopPropagation;
-            keyCode = e.keyCode;
+            keyCode = e.which;
             code.forEach(function(element) {
                 if(element === keyCode){
                     console.log(keyCode);
