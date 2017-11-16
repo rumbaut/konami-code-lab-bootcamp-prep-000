@@ -6,7 +6,7 @@ function init(e) {
     e.stopPropagation;
     code.forEach(function(element) {
         if(element === keyCode){
-          console.log(keyCode);
+          alert(keyCode);
         }
     }, this);
 }
