@@ -10,5 +10,5 @@ function init() {
          }
       }, this);
   }, false);
-  
+
 }
